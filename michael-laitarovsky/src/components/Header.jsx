@@ -23,7 +23,7 @@ const Header = () => {
         <h1>
           <a href="/" className="logo">
             <img
-              src="/images/faviconWB-192x192.svg"
+              src="/images/faviconWB2-192x192.png"
               width={40}
               height={40}
               alt="Michael Laitarovsky"
@@ -36,9 +36,11 @@ const Header = () => {
             className="menu-btn md:hidden"
             onClick={() => setNavOpen((prev) => !prev)}
           >
-            <span className="material-symbols-rounded">{navOpen}</span>
+            <span className="material-symbols-rounded">
+              {navOpen ? "close" : "menu"}
+            </span>
           </button>
-          <Navbar navOpen={navOpen ? "close" : "menu"} />
+          <Navbar navOpen={navOpen} />
         </div>
         <a
           href="#contact"
