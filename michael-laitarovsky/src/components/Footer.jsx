@@ -35,23 +35,19 @@ const socials = [
   /*! CHANGE LINKS!*/
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/MLaitarovsky",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/michael-laitarovsky/",
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/MLaytarovsky",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
-  },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    href: "https://www.instagram.com/michael_9915/",
   },
 ];
 const Footer = () => {
