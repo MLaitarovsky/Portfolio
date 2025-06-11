@@ -36,7 +36,7 @@ const Hero = () => {
           </h2>
 
           <div className="flex items-center gap-3">
-            <ButtonPrimary herf="C:\Users\layta\OneDrive\Desktop\Impo Stuff\Resume + Apartment contract + Tax\Resume +Recommendation\Resume Michael Laitarovsky OLY.pdf" label="Download CV" icon="download" />
+            <ButtonPrimary herf="public/Resume Michael Laitarovsky OLY.pdf" label="Download CV" icon="download" />
 
             <ButtonOutline
               href="#about"
