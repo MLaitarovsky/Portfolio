@@ -41,10 +41,10 @@ const socials = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/michael-laitarovsky/",
   },
-  {
-    label: "Twitter X",
-    href: "https://x.com/MLaytarovsky",
-  },
+  // {
+  //   label: "Twitter X",
+  //   href: "https://x.com/MLaytarovsky",
+  // },
   {
     label: "Instagram",
     href: "https://www.instagram.com/michael_9915/",
